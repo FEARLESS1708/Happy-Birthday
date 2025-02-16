@@ -66,14 +66,14 @@ img[src="gift.gif"] {
 
 #instruction {
     font-family: "Brush Script MT"; /* Apply Brush Script MT font to the question */
-    font-size: 50px; /* Set font size for the question */
+    font-size: 100px; /* Set font size for the question */
     text-shadow: 
     2px 2px 0px #000, 
     -2px -2px 0px #000, 
     2px -2px 0px #000, 
-    -2px 2px 0px #000;
-    color: white; /* Text color */
-    background-color: #452f8180; /* Set button background color */
+    -2px 2px 0px #000; /* Green text outline */
+    color: rgb(233, 232, 161); /* Pineapple yellow color for the text */
+    background-color: rgb(255, 208, 0); /* Yellow background color */
     text-align: center; /* Center-align the text */
     margin-bottom: 0px; /* Move the instructions closer to the images */
     position: relative;
