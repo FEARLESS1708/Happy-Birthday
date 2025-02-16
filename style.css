@@ -1,0 +1,97 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif; /* Fallback font family */
+    text-align: top center; /* Center-align text */
+    margin: 0; /* Remove default margin */
+    background-color: #ffb0d5fd; /* Set background color to violet */
+    background-size: cover; /* Make sure the background covers the entire viewport */
+    background-repeat: no-repeat; /* Prevent the background from repeating */
+    background-position: center; /* Center the background image */
+}
+
+#container {
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center-align items horizontally */
+    justify-content: bottom; /* Center-align items vertically */
+    height: 100vh; /* Make the container full viewport height */
+}
+
+#text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#image-container {
+    position: relative; /* Position relatively to contain absolutely positioned images */
+    width: 400px; /* Set a fixed width for the images */
+    height: 400px; /* Set a fixed height for the images */
+    margin-top: 6px; /* Adjust this value to move the images lower */
+}
+
+#giftstatico, #gift {
+    position: absolute; /* Position images absolutely */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#dancingbunny-left {
+    position: fixed; /* Position the dancing bunny fixed to the top left corner */
+    top: 10px; /* Adjust distance from the top */
+    left: 10px; /* Adjust distance from the left */
+    width: 300px; /* Set the width for the dancing bunny */
+    height: auto; /* Maintain aspect ratio */
+}
+
+#dancingbunny-right {
+    position: fixed; /* Position the dancing bunny fixed to the top right corner */
+    top: 10px; /* Adjust distance from the top */
+    right: 10px; /* Adjust distance from the right */
+    width: 300px; /* Set the width for the dancing bunny */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+img[src="staticgif.png"] {
+    cursor: pointer; /* Set cursor to pointer on hover */
+}
+
+img[src="gift.gif"] {
+    cursor: pointer; /* Set cursor to pointer on hover */
+}
+
+#instruction {
+    font-family: "Brush Script MT"; /* Apply Brush Script MT font to the question */
+    font-size: 50px; /* Set font size for the question */
+    text-shadow: 
+    2px 2px 0px #000, 
+    -2px -2px 0px #000, 
+    2px -2px 0px #000, 
+    -2px 2px 0px #000;
+    color: white; /* Text color */
+    background-color: #452f8180; /* Set button background color */
+    text-align: center; /* Center-align the text */
+    margin-bottom: 0px; /* Move the instructions closer to the images */
+    position: relative;
+    top: 10px; /* Adjust the vertical position of the instructions */
+}
+
+#birthday-message {
+    font-family: "Brush Script MT"; /* Apply Brush Script MT font to the question */
+    font-size: 100px; /* Set font size for the message */
+    color: rgb(233, 232, 161); /* Pineapple yellow color for the text */
+    background-color: rgb(255, 208, 0); /* Yellow background color */
+    text-align: center; /* Center-align the text */
+    padding: 10px;
+    border: 5px solid rgba(81, 141, 12, 0.705); /* Green outline */
+    border-radius: 10px; /* Rounded corners */
+    text-shadow: 
+    2px 2px 0px #000, 
+    -2px -2px 0px #000, 
+    2px -2px 0px #000, 
+    -2px 2px 0px #000; /* Green text outline */
+}

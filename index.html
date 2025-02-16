@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz cumple Abby</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap">
+    <link rel="stylesheet" href="style.css"> <!-- Link to external stylesheet -->
+</head>
+<body>
+    <div id="container">
+        <div id="text-container">
+            <div id="instruction">tap to open the gift?</div> <!-- instruction -->
+            <div id="image-container"> <!-- Container for displaying images -->
+                <img id="giftstatico" src="staticgif.png" onclick="selectOption('swap to gift')" style="display: block;"> <!-- first image -->
+                <img id="gift" src="gift.gif" style="display: none;"> <!-- second gift -->
+                <img id="dancingbunny-left" src="dancingbunny.gif" style="display: none;"> <!-- left dancing bunny gif -->
+                <img id="dancingbunny-right" src="dancingbunny.gif" style="display: none;"> <!-- right dancing bunny gif -->
+            </div>
+        </div>
+        <div id="birthday-message" style="display: none;">Happy Birthday Abbychuela!</div> <!-- Happy Birthday message -->
+    </div>
+
+    <!-- musica -->
+    <audio id="musicadefondo" src="cancion.mp3" autoplay loop></audio>
+    
+    <script src="script.js"></script> <!-- Link to external JavaScript file -->
+</body>
+</html>
